@@ -1,0 +1,685 @@
+"","Eleccion","Partido","Sigla","Departamento","Votos","Porcentaje"
+"1",1999,"Partido Colorado","PC","Artigas",19773,41.22
+"2",1999,"Partido Nacional","PN","Artigas",16595,34.6
+"3",1999,"Frente Amplio","FA","Artigas",10907,22.74
+"4",1999,"Nuevo Espacio","NE","Artigas",658,1.37
+"5",1999,"Union Civica","UC","Artigas",35,0.07
+"6",1999,"Frente Amplio","FA","Canelones",106571,39.3
+"7",1999,"Partido Colorado","PC","Canelones",90355,33.32
+"8",1999,"Partido Nacional","PN","Canelones",59832,22.06
+"9",1999,"Nuevo Espacio","NE","Canelones",13932,5.14
+"10",1999,"Union Civica","UC","Canelones",481,0.18
+"11",1999,"Partido Nacional","PN","Cerro Largo",21814,38.37
+"12",1999,"Partido Colorado","PC","Cerro Largo",18376,32.33
+"13",1999,"Frente Amplio","FA","Cerro Largo",15233,26.8
+"14",1999,"Nuevo Espacio","NE","Cerro Largo",1401,2.46
+"15",1999,"Union Civica","UC","Cerro Largo",23,0.04
+"16",1999,"Partido Colorado","PC","Colonia",28197,33.58
+"17",1999,"Partido Nacional","PN","Colonia",25639,30.53
+"18",1999,"Frente Amplio","FA","Colonia",25198,30.01
+"19",1999,"Nuevo Espacio","NE","Colonia",4860,5.79
+"20",1999,"Union Civica","UC","Colonia",83,0.1
+"21",1999,"Partido Nacional","PN","Durazno",14693,38.07
+"22",1999,"Partido Colorado","PC","Durazno",14206,36.81
+"23",1999,"Frente Amplio","FA","Durazno",8445,21.88
+"24",1999,"Nuevo Espacio","NE","Durazno",1202,3.11
+"25",1999,"Union Civica","UC","Durazno",45,0.12
+"26",1999,"Partido Nacional","PN","Flores",7343,39.81
+"27",1999,"Partido Colorado","PC","Flores",6499,35.23
+"28",1999,"Frente Amplio","FA","Flores",3996,21.66
+"29",1999,"Nuevo Espacio","NE","Flores",565,3.06
+"30",1999,"Union Civica","UC","Flores",44,0.24
+"31",1999,"Partido Colorado","PC","Florida",16897,35.13
+"32",1999,"Partido Nacional","PN","Florida",15491,32.2
+"33",1999,"Frente Amplio","FA","Florida",13958,29.02
+"34",1999,"Nuevo Espacio","NE","Florida",1691,3.52
+"35",1999,"Union Civica","UC","Florida",65,0.14
+"36",1999,"Partido Colorado","PC","Lavalleja",17805,39.65
+"37",1999,"Partido Nacional","PN","Lavalleja",15954,35.53
+"38",1999,"Frente Amplio","FA","Lavalleja",9457,21.06
+"39",1999,"Nuevo Espacio","NE","Lavalleja",1627,3.62
+"40",1999,"Union Civica","UC","Lavalleja",63,0.14
+"41",1999,"Partido Colorado","PC","Maldonado",30481,35.96
+"42",1999,"Frente Amplio","FA","Maldonado",29701,35.04
+"43",1999,"Partido Nacional","PN","Maldonado",20168,23.79
+"44",1999,"Nuevo Espacio","NE","Maldonado",4199,4.95
+"45",1999,"Union Civica","UC","Maldonado",226,0.27
+"46",1999,"Frente Amplio","FA","Montevideo",484841,51.78
+"47",1999,"Partido Colorado","PC","Montevideo",278684,29.76
+"48",1999,"Partido Nacional","PN","Montevideo",118569,12.66
+"49",1999,"Nuevo Espacio","NE","Montevideo",51071,5.45
+"50",1999,"Union Civica","UC","Montevideo",3126,0.33
+"51",1999,"Frente Amplio","FA","Paysandu",30921,42.16
+"52",1999,"Partido Colorado","PC","Paysandu",20654,28.16
+"53",1999,"Partido Nacional","PN","Paysandu",19119,26.07
+"54",1999,"Nuevo Espacio","NE","Paysandu",2506,3.42
+"55",1999,"Union Civica","UC","Paysandu",143,0.19
+"56",1999,"Partido Colorado","PC","Rio Negro",14314,42.23
+"57",1999,"Frente Amplio","FA","Rio Negro",9832,29
+"58",1999,"Partido Nacional","PN","Rio Negro",8250,24.34
+"59",1999,"Nuevo Espacio","NE","Rio Negro",1471,4.34
+"60",1999,"Union Civica","UC","Rio Negro",31,0.09
+"61",1999,"Partido Colorado","PC","Rivera",28095,41.87
+"62",1999,"Partido Nacional","PN","Rivera",24418,36.39
+"63",1999,"Frente Amplio","FA","Rivera",13083,19.5
+"64",1999,"Nuevo Espacio","NE","Rivera",1435,2.14
+"65",1999,"Union Civica","UC","Rivera",68,0.1
+"66",1999,"Partido Colorado","PC","Rocha",17984,36.41
+"67",1999,"Partido Nacional","PN","Rocha",15824,32.03
+"68",1999,"Frente Amplio","FA","Rocha",14016,28.37
+"69",1999,"Nuevo Espacio","NE","Rocha",1534,3.11
+"70",1999,"Union Civica","UC","Rocha",38,0.08
+"71",1999,"Partido Colorado","PC","Salto",29490,38.72
+"72",1999,"Frente Amplio","FA","Salto",24029,31.55
+"73",1999,"Partido Nacional","PN","Salto",19782,25.97
+"74",1999,"Nuevo Espacio","NE","Salto",2715,3.56
+"75",1999,"Union Civica","UC","Salto",143,0.19
+"76",1999,"Partido Nacional","PN","San Jose",21704,33.97
+"77",1999,"Frente Amplio","FA","San Jose",19990,31.28
+"78",1999,"Partido Colorado","PC","San Jose",19622,30.71
+"79",1999,"Nuevo Espacio","NE","San Jose",2370,3.71
+"80",1999,"Union Civica","UC","San Jose",213,0.33
+"81",1999,"Partido Colorado","PC","Soriano",21697,37.5
+"82",1999,"Frente Amplio","FA","Soriano",19273,33.31
+"83",1999,"Partido Nacional","PN","Soriano",14875,25.71
+"84",1999,"Nuevo Espacio","NE","Soriano",1952,3.37
+"85",1999,"Union Civica","UC","Soriano",55,0.1
+"86",1999,"Partido Nacional","PN","Tacuarembo",25561,41.95
+"87",1999,"Partido Colorado","PC","Tacuarembo",19820,32.53
+"88",1999,"Frente Amplio","FA","Tacuarembo",13679,22.45
+"89",1999,"Nuevo Espacio","NE","Tacuarembo",1658,2.72
+"90",1999,"Union Civica","UC","Tacuarembo",218,0.36
+"91",1999,"Partido Nacional","PN","Treinta y Tres",13349,40.31
+"92",1999,"Partido Colorado","PC","Treinta y Tres",10982,33.16
+"93",1999,"Frente Amplio","FA","Treinta y Tres",7672,23.17
+"94",1999,"Nuevo Espacio","NE","Treinta y Tres",1106,3.34
+"95",1999,"Union Civica","UC","Treinta y Tres",9,0.03
+"96",2004,"Partido Nacional","PN","Artigas",24021,49.16
+"97",2004,"Frente Amplio","FA","Artigas",16076,32.9
+"98",2004,"Partido Colorado","PC","Artigas",8563,17.52
+"99",2004,"Partido Independiente","PI","Artigas",153,0.31
+"100",2004,"Union Civica","UC","Artigas",48,0.1
+"101",2004,"Partido Intransigente","PIntra","Artigas",3,0.01
+"102",2004,"Partido de los Trabajadores","PT","Artigas",0,0
+"103",2004,"Partido Liberal","PL","Artigas",0,0
+"104",2004,"Frente Amplio","FA","Canelones",160076,54.49
+"105",2004,"Partido Nacional","PN","Canelones",98179,33.42
+"106",2004,"Partido Colorado","PC","Canelones",28044,9.55
+"107",2004,"Partido Independiente","PI","Canelones",5093,1.73
+"108",2004,"Partido Intransigente","PIntra","Canelones",1616,0.55
+"109",2004,"Union Civica","UC","Canelones",583,0.2
+"110",2004,"Partido Liberal","PL","Canelones",103,0.04
+"111",2004,"Partido de los Trabajadores","PT","Canelones",99,0.03
+"112",2004,"Partido Nacional","PN","Cerro Largo",28929,49.27
+"113",2004,"Frente Amplio","FA","Cerro Largo",22793,38.82
+"114",2004,"Partido Colorado","PC","Cerro Largo",6700,11.41
+"115",2004,"Partido Independiente","PI","Cerro Largo",285,0.49
+"116",2004,"Partido Intransigente","PIntra","Cerro Largo",4,0.01
+"117",2004,"Union Civica","UC","Cerro Largo",5,0.01
+"118",2004,"Partido de los Trabajadores","PT","Cerro Largo",0,0
+"119",2004,"Partido Liberal","PL","Cerro Largo",0,0
+"120",2004,"Partido Nacional","PN","Colonia",37078,43.52
+"121",2004,"Frente Amplio","FA","Colonia",35844,42.07
+"122",2004,"Partido Colorado","PC","Colonia",10136,11.9
+"123",2004,"Partido Independiente","PI","Colonia",1509,1.77
+"124",2004,"Partido Intransigente","PIntra","Colonia",358,0.42
+"125",2004,"Union Civica","UC","Colonia",186,0.22
+"126",2004,"Partido Liberal","PL","Colonia",61,0.07
+"127",2004,"Partido de los Trabajadores","PT","Colonia",23,0.03
+"128",2004,"Partido Nacional","PN","Durazno",19233,48.64
+"129",2004,"Frente Amplio","FA","Durazno",13433,33.97
+"130",2004,"Partido Colorado","PC","Durazno",6117,15.47
+"131",2004,"Partido Independiente","PI","Durazno",450,1.14
+"132",2004,"Partido Intransigente","PIntra","Durazno",282,0.71
+"133",2004,"Union Civica","UC","Durazno",24,0.06
+"134",2004,"Partido de los Trabajadores","PT","Durazno",0,0
+"135",2004,"Partido Liberal","PL","Durazno",0,0
+"136",2004,"Partido Nacional","PN","Flores",9469,51.24
+"137",2004,"Frente Amplio","FA","Flores",5996,32.45
+"138",2004,"Partido Colorado","PC","Flores",2796,15.13
+"139",2004,"Partido Independiente","PI","Flores",182,0.98
+"140",2004,"Union Civica","UC","Flores",30,0.16
+"141",2004,"Partido Intransigente","PIntra","Flores",6,0.03
+"142",2004,"Partido de los Trabajadores","PT","Flores",0,0
+"143",2004,"Partido Liberal","PL","Flores",0,0
+"144",2004,"Frente Amplio","FA","Florida",20927,42.28
+"145",2004,"Partido Nacional","PN","Florida",20243,40.9
+"146",2004,"Partido Colorado","PC","Florida",7413,14.98
+"147",2004,"Partido Independiente","PI","Florida",651,1.32
+"148",2004,"Partido Intransigente","PIntra","Florida",210,0.42
+"149",2004,"Union Civica","UC","Florida",43,0.09
+"150",2004,"Partido de los Trabajadores","PT","Florida",4,0.01
+"151",2004,"Partido Liberal","PL","Florida",0,0
+"152",2004,"Partido Nacional","PN","Lavalleja",21858,51.67
+"153",2004,"Frente Amplio","FA","Lavalleja",12400,29.31
+"154",2004,"Partido Colorado","PC","Lavalleja",7189,16.99
+"155",2004,"Partido Independiente","PI","Lavalleja",748,1.77
+"156",2004,"Union Civica","UC","Lavalleja",99,0.23
+"157",2004,"Partido Intransigente","PIntra","Lavalleja",8,0.02
+"158",2004,"Partido de los Trabajadores","PT","Lavalleja",0,0
+"159",2004,"Partido Liberal","PL","Lavalleja",0,0
+"160",2004,"Frente Amplio","FA","Maldonado",46904,49.3
+"161",2004,"Partido Nacional","PN","Maldonado",35821,37.65
+"162",2004,"Partido Colorado","PC","Maldonado",9278,9.75
+"163",2004,"Partido Independiente","PI","Maldonado",2594,2.73
+"164",2004,"Partido Liberal","PL","Maldonado",275,0.29
+"165",2004,"Partido Intransigente","PIntra","Maldonado",138,0.15
+"166",2004,"Union Civica","UC","Maldonado",122,0.13
+"167",2004,"Partido de los Trabajadores","PT","Maldonado",0,0
+"168",2004,"Frente Amplio","FA","Montevideo",563855,62.73
+"169",2004,"Partido Nacional","PN","Montevideo",224957,25.03
+"170",2004,"Partido Colorado","PC","Montevideo",76099,8.47
+"171",2004,"Partido Independiente","PI","Montevideo",24631,2.74
+"172",2004,"Partido Intransigente","PIntra","Montevideo",5082,0.57
+"173",2004,"Union Civica","UC","Montevideo",2941,0.33
+"174",2004,"Partido Liberal","PL","Montevideo",1041,0.12
+"175",2004,"Partido de los Trabajadores","PT","Montevideo",294,0.03
+"176",2004,"Partido Nacional","PN","Paysandu",35100,46.85
+"177",2004,"Frente Amplio","FA","Paysandu",34591,46.17
+"178",2004,"Partido Colorado","PC","Paysandu",4720,6.3
+"179",2004,"Partido Independiente","PI","Paysandu",458,0.61
+"180",2004,"Union Civica","UC","Paysandu",45,0.06
+"181",2004,"Partido de los Trabajadores","PT","Paysandu",0,0
+"182",2004,"Partido Intransigente","PIntra","Paysandu",0,0
+"183",2004,"Partido Liberal","PL","Paysandu",0,0
+"184",2004,"Partido Nacional","PN","Rio Negro",15348,44.27
+"185",2004,"Frente Amplio","FA","Rio Negro",14061,40.55
+"186",2004,"Partido Colorado","PC","Rio Negro",4926,14.21
+"187",2004,"Partido Independiente","PI","Rio Negro",231,0.67
+"188",2004,"Partido Intransigente","PIntra","Rio Negro",51,0.15
+"189",2004,"Union Civica","UC","Rio Negro",37,0.11
+"190",2004,"Partido Liberal","PL","Rio Negro",13,0.04
+"191",2004,"Partido de los Trabajadores","PT","Rio Negro",5,0.01
+"192",2004,"Partido Nacional","PN","Rivera",31578,46.52
+"193",2004,"Frente Amplio","FA","Rivera",20354,29.98
+"194",2004,"Partido Colorado","PC","Rivera",15420,22.72
+"195",2004,"Partido Independiente","PI","Rivera",333,0.49
+"196",2004,"Union Civica","UC","Rivera",105,0.15
+"197",2004,"Partido de los Trabajadores","PT","Rivera",70,0.1
+"198",2004,"Partido Intransigente","PIntra","Rivera",21,0.03
+"199",2004,"Partido Liberal","PL","Rivera",0,0
+"200",2004,"Frente Amplio","FA","Rocha",22760,45.49
+"201",2004,"Partido Nacional","PN","Rocha",19961,39.9
+"202",2004,"Partido Colorado","PC","Rocha",6534,13.06
+"203",2004,"Partido Independiente","PI","Rocha",542,1.08
+"204",2004,"Partido Intransigente","PIntra","Rocha",160,0.32
+"205",2004,"Union Civica","UC","Rocha",76,0.15
+"206",2004,"Partido de los Trabajadores","PT","Rocha",0,0
+"207",2004,"Partido Liberal","PL","Rocha",0,0
+"208",2004,"Frente Amplio","FA","Salto",35195,44.48
+"209",2004,"Partido Nacional","PN","Salto",31637,39.99
+"210",2004,"Partido Colorado","PC","Salto",11610,14.67
+"211",2004,"Partido Independiente","PI","Salto",471,0.6
+"212",2004,"Union Civica","UC","Salto",172,0.22
+"213",2004,"Partido de los Trabajadores","PT","Salto",29,0.04
+"214",2004,"Partido Intransigente","PIntra","Salto",8,0.01
+"215",2004,"Partido Liberal","PL","Salto",0,0
+"216",2004,"Partido Nacional","PN","San Jose",29425,44.68
+"217",2004,"Frente Amplio","FA","San Jose",28648,43.5
+"218",2004,"Partido Colorado","PC","San Jose",6683,10.15
+"219",2004,"Partido Independiente","PI","San Jose",788,1.2
+"220",2004,"Partido Intransigente","PIntra","San Jose",193,0.29
+"221",2004,"Union Civica","UC","San Jose",123,0.19
+"222",2004,"Partido de los Trabajadores","PT","San Jose",0,0
+"223",2004,"Partido Liberal","PL","San Jose",0,0
+"224",2004,"Frente Amplio","FA","Soriano",26096,44.12
+"225",2004,"Partido Nacional","PN","Soriano",25437,43
+"226",2004,"Partido Colorado","PC","Soriano",7015,11.86
+"227",2004,"Partido Independiente","PI","Soriano",552,0.93
+"228",2004,"Partido Intransigente","PIntra","Soriano",36,0.06
+"229",2004,"Union Civica","UC","Soriano",18,0.03
+"230",2004,"Partido de los Trabajadores","PT","Soriano",0,0
+"231",2004,"Partido Liberal","PL","Soriano",0,0
+"232",2004,"Partido Nacional","PN","Tacuarembo",33537,53.06
+"233",2004,"Frente Amplio","FA","Tacuarembo",21134,33.44
+"234",2004,"Partido Colorado","PC","Tacuarembo",7887,12.48
+"235",2004,"Partido Independiente","PI","Tacuarembo",364,0.58
+"236",2004,"Partido Intransigente","PIntra","Tacuarembo",195,0.31
+"237",2004,"Union Civica","UC","Tacuarembo",86,0.14
+"238",2004,"Partido de los Trabajadores","PT","Tacuarembo",0,0
+"239",2004,"Partido Liberal","PL","Tacuarembo",0,0
+"240",2004,"Partido Nacional","PN","Treinta y Tres",16136,48.52
+"241",2004,"Frente Amplio","FA","Treinta y Tres",12801,38.49
+"242",2004,"Partido Colorado","PC","Treinta y Tres",3907,11.75
+"243",2004,"Partido Independiente","PI","Treinta y Tres",366,1.1
+"244",2004,"Partido Intransigente","PIntra","Treinta y Tres",33,0.1
+"245",2004,"Union Civica","UC","Treinta y Tres",14,0.04
+"246",2004,"Partido de los Trabajadores","PT","Treinta y Tres",0,0
+"247",2004,"Partido Liberal","PL","Treinta y Tres",0,0
+"248",2009,"Partido Nacional","PN","Artigas",20710,41.72
+"249",2009,"Frente Amplio","FA","Artigas",18964,38.2
+"250",2009,"Partido Colorado","PC","Artigas",9456,19.05
+"251",2009,"Partido Independiente","PI","Artigas",407,0.82
+"252",2009,"Asamblea Popular","AP","Artigas",108,0.22
+"253",2009,"Frente Amplio","FA","Canelones",165191,52.94
+"254",2009,"Partido Nacional","PN","Canelones",90750,29.08
+"255",2009,"Partido Colorado","PC","Canelones",45929,14.72
+"256",2009,"Partido Independiente","PI","Canelones",7806,2.5
+"257",2009,"Asamblea Popular","AP","Canelones",2344,0.75
+"258",2009,"Partido Nacional","PN","Cerro Largo",25632,43.49
+"259",2009,"Frente Amplio","FA","Cerro Largo",24350,41.31
+"260",2009,"Partido Colorado","PC","Cerro Largo",8219,13.94
+"261",2009,"Partido Independiente","PI","Cerro Largo",586,0.99
+"262",2009,"Asamblea Popular","AP","Cerro Largo",154,0.26
+"263",2009,"Frente Amplio","FA","Colonia",35014,39.48
+"264",2009,"Partido Nacional","PN","Colonia",32357,36.48
+"265",2009,"Partido Colorado","PC","Colonia",19028,21.45
+"266",2009,"Partido Independiente","PI","Colonia",2080,2.35
+"267",2009,"Asamblea Popular","AP","Colonia",213,0.24
+"268",2009,"Partido Nacional","PN","Durazno",17010,42.7
+"269",2009,"Frente Amplio","FA","Durazno",14396,36.14
+"270",2009,"Partido Colorado","PC","Durazno",7459,18.72
+"271",2009,"Partido Independiente","PI","Durazno",852,2.14
+"272",2009,"Asamblea Popular","AP","Durazno",118,0.3
+"273",2009,"Partido Nacional","PN","Flores",8695,45.34
+"274",2009,"Frente Amplio","FA","Flores",6071,31.66
+"275",2009,"Partido Colorado","PC","Flores",4097,21.36
+"276",2009,"Partido Independiente","PI","Flores",242,1.26
+"277",2009,"Asamblea Popular","AP","Flores",73,0.38
+"278",2009,"Frente Amplio","FA","Florida",19284,39.65
+"279",2009,"Partido Nacional","PN","Florida",17934,36.88
+"280",2009,"Partido Colorado","PC","Florida",10100,20.77
+"281",2009,"Partido Independiente","PI","Florida",1101,2.26
+"282",2009,"Asamblea Popular","AP","Florida",215,0.44
+"283",2009,"Partido Nacional","PN","Lavalleja",19177,42.76
+"284",2009,"Frente Amplio","FA","Lavalleja",14241,31.75
+"285",2009,"Partido Colorado","PC","Lavalleja",10314,23
+"286",2009,"Partido Independiente","PI","Lavalleja",992,2.21
+"287",2009,"Asamblea Popular","AP","Lavalleja",128,0.29
+"288",2009,"Frente Amplio","FA","Maldonado",44200,42.24
+"289",2009,"Partido Nacional","PN","Maldonado",34038,32.53
+"290",2009,"Partido Colorado","PC","Maldonado",22974,21.96
+"291",2009,"Partido Independiente","PI","Maldonado",3103,2.97
+"292",2009,"Asamblea Popular","AP","Maldonado",315,0.3
+"293",2009,"Frente Amplio","FA","Montevideo",519381,57.93
+"294",2009,"Partido Nacional","PN","Montevideo",200099,22.32
+"295",2009,"Partido Colorado","PC","Montevideo",136888,15.27
+"296",2009,"Partido Independiente","PI","Montevideo",30688,3.42
+"297",2009,"Asamblea Popular","AP","Montevideo",9552,1.07
+"298",2009,"Frente Amplio","FA","Paysandu",36233,47.43
+"299",2009,"Partido Nacional","PN","Paysandu",27358,35.81
+"300",2009,"Partido Colorado","PC","Paysandu",11126,14.56
+"301",2009,"Partido Independiente","PI","Paysandu",1406,1.84
+"302",2009,"Asamblea Popular","AP","Paysandu",277,0.36
+"303",2009,"Frente Amplio","FA","Rio Negro",15297,41.76
+"304",2009,"Partido Nacional","PN","Rio Negro",11378,31.06
+"305",2009,"Partido Colorado","PC","Rio Negro",9262,25.29
+"306",2009,"Partido Independiente","PI","Rio Negro",598,1.63
+"307",2009,"Asamblea Popular","AP","Rio Negro",93,0.25
+"308",2009,"Partido Nacional","PN","Rivera",25107,35.96
+"309",2009,"Frente Amplio","FA","Rivera",24449,35.02
+"310",2009,"Partido Colorado","PC","Rivera",19422,27.82
+"311",2009,"Partido Independiente","PI","Rivera",695,1
+"312",2009,"Asamblea Popular","AP","Rivera",139,0.2
+"313",2009,"Frente Amplio","FA","Rocha",21765,42.96
+"314",2009,"Partido Nacional","PN","Rocha",17714,34.97
+"315",2009,"Partido Colorado","PC","Rocha",10060,19.86
+"316",2009,"Partido Independiente","PI","Rocha",843,1.66
+"317",2009,"Asamblea Popular","AP","Rocha",276,0.54
+"318",2009,"Frente Amplio","FA","Salto",39352,47.67
+"319",2009,"Partido Nacional","PN","Salto",22840,27.67
+"320",2009,"Partido Colorado","PC","Salto",18948,22.95
+"321",2009,"Partido Independiente","PI","Salto",1205,1.46
+"322",2009,"Asamblea Popular","AP","Salto",212,0.26
+"323",2009,"Frente Amplio","FA","San Jose",30250,44.18
+"324",2009,"Partido Nacional","PN","San Jose",24847,36.29
+"325",2009,"Partido Colorado","PC","San Jose",11599,16.94
+"326",2009,"Partido Independiente","PI","San Jose",1345,1.96
+"327",2009,"Asamblea Popular","AP","San Jose",429,0.63
+"328",2009,"Frente Amplio","FA","Soriano",27088,45.32
+"329",2009,"Partido Nacional","PN","Soriano",18513,30.97
+"330",2009,"Partido Colorado","PC","Soriano",13087,21.89
+"331",2009,"Partido Independiente","PI","Soriano",836,1.4
+"332",2009,"Asamblea Popular","AP","Soriano",249,0.42
+"333",2009,"Partido Nacional","PN","Tacuarembo",27731,43.13
+"334",2009,"Frente Amplio","FA","Tacuarembo",24682,38.38
+"335",2009,"Partido Colorado","PC","Tacuarembo",10801,16.8
+"336",2009,"Partido Independiente","PI","Tacuarembo",924,1.44
+"337",2009,"Asamblea Popular","AP","Tacuarembo",165,0.26
+"338",2009,"Partido Nacional","PN","Treinta y Tres",15437,44.37
+"339",2009,"Frente Amplio","FA","Treinta y Tres",13661,39.26
+"340",2009,"Partido Colorado","PC","Treinta y Tres",5143,14.78
+"341",2009,"Partido Independiente","PI","Treinta y Tres",447,1.28
+"342",2009,"Asamblea Popular","AP","Treinta y Tres",106,0.3
+"343",2014,"Frente Amplio","FA","Artigas",21626,41.32
+"344",2014,"Partido Nacional","PN","Artigas",20622,39.4
+"345",2014,"Partido Colorado","PC","Artigas",8965,17.13
+"346",2014,"Partido Independiente","PI","Artigas",616,1.18
+"347",2014,"Partido Asamblea Popular","PAP","Artigas",411,0.79
+"348",2014,"Partido Ecologista Radical Intransigente","PERI","Artigas",70,0.13
+"349",2014,"Partido de los Trabajadores","PT","Artigas",24,0.05
+"350",2014,"Frente Amplio","FA","Canelones",174562,53.1
+"351",2014,"Partido Nacional","PN","Canelones",98238,29.88
+"352",2014,"Partido Colorado","PC","Canelones",37213,11.32
+"353",2014,"Partido Independiente","PI","Canelones",10477,3.19
+"354",2014,"Partido Asamblea Popular","PAP","Canelones",3995,1.22
+"355",2014,"Partido Ecologista Radical Intransigente","PERI","Canelones",3802,1.16
+"356",2014,"Partido de los Trabajadores","PT","Canelones",480,0.15
+"357",2014,"Frente Amplio","FA","Cerro Largo",28775,46.02
+"358",2014,"Partido Nacional","PN","Cerro Largo",24761,39.6
+"359",2014,"Partido Colorado","PC","Cerro Largo",7623,12.19
+"360",2014,"Partido Independiente","PI","Cerro Largo",860,1.38
+"361",2014,"Partido Asamblea Popular","PAP","Cerro Largo",427,0.68
+"362",2014,"Partido de los Trabajadores","PT","Cerro Largo",79,0.13
+"363",2014,"Partido Ecologista Radical Intransigente","PERI","Cerro Largo",0,0
+"364",2014,"Frente Amplio","FA","Colonia",39530,43.52
+"365",2014,"Partido Nacional","PN","Colonia",35153,38.7
+"366",2014,"Partido Colorado","PC","Colonia",12468,13.73
+"367",2014,"Partido Independiente","PI","Colonia",2563,2.82
+"368",2014,"Partido Asamblea Popular","PAP","Colonia",599,0.66
+"369",2014,"Partido Ecologista Radical Intransigente","PERI","Colonia",444,0.49
+"370",2014,"Partido de los Trabajadores","PT","Colonia",78,0.09
+"371",2014,"Partido Nacional","PN","Durazno",19742,45.84
+"372",2014,"Frente Amplio","FA","Durazno",16396,38.07
+"373",2014,"Partido Colorado","PC","Durazno",5463,12.69
+"374",2014,"Partido Independiente","PI","Durazno",1001,2.32
+"375",2014,"Partido Asamblea Popular","PAP","Durazno",419,0.97
+"376",2014,"Partido de los Trabajadores","PT","Durazno",44,0.1
+"377",2014,"Partido Ecologista Radical Intransigente","PERI","Durazno",0,0
+"378",2014,"Partido Nacional","PN","Flores",9564,48.56
+"379",2014,"Frente Amplio","FA","Flores",6791,34.48
+"380",2014,"Partido Colorado","PC","Flores",2837,14.4
+"381",2014,"Partido Independiente","PI","Flores",354,1.8
+"382",2014,"Partido Asamblea Popular","PAP","Flores",128,0.65
+"383",2014,"Partido de los Trabajadores","PT","Flores",22,0.11
+"384",2014,"Partido Ecologista Radical Intransigente","PERI","Flores",0,0
+"385",2014,"Frente Amplio","FA","Florida",20778,40.95
+"386",2014,"Partido Nacional","PN","Florida",19757,38.94
+"387",2014,"Partido Colorado","PC","Florida",8049,15.86
+"388",2014,"Partido Independiente","PI","Florida",1535,3.03
+"389",2014,"Partido Asamblea Popular","PAP","Florida",528,1.04
+"390",2014,"Partido de los Trabajadores","PT","Florida",96,0.19
+"391",2014,"Partido Ecologista Radical Intransigente","PERI","Florida",0,0
+"392",2014,"Partido Nacional","PN","Lavalleja",20035,44.05
+"393",2014,"Frente Amplio","FA","Lavalleja",16251,35.73
+"394",2014,"Partido Colorado","PC","Lavalleja",7706,16.94
+"395",2014,"Partido Independiente","PI","Lavalleja",1173,2.58
+"396",2014,"Partido Asamblea Popular","PAP","Lavalleja",265,0.58
+"397",2014,"Partido de los Trabajadores","PT","Lavalleja",48,0.11
+"398",2014,"Partido Ecologista Radical Intransigente","PERI","Lavalleja",0,0
+"399",2014,"Frente Amplio","FA","Maldonado",46204,40.86
+"400",2014,"Partido Nacional","PN","Maldonado",41706,36.88
+"401",2014,"Partido Colorado","PC","Maldonado",18729,16.56
+"402",2014,"Partido Independiente","PI","Maldonado",3816,3.37
+"403",2014,"Partido Ecologista Radical Intransigente","PERI","Maldonado",1566,1.38
+"404",2014,"Partido Asamblea Popular","PAP","Maldonado",926,0.82
+"405",2014,"Partido de los Trabajadores","PT","Maldonado",135,0.12
+"406",2014,"Frente Amplio","FA","Montevideo",493027,55.22
+"407",2014,"Partido Nacional","PN","Montevideo",237793,26.63
+"408",2014,"Partido Colorado","PC","Montevideo",98131,10.99
+"409",2014,"Partido Independiente","PI","Montevideo",37750,4.23
+"410",2014,"Partido Asamblea Popular","PAP","Montevideo",13677,1.53
+"411",2014,"Partido Ecologista Radical Intransigente","PERI","Montevideo",11004,1.23
+"412",2014,"Partido de los Trabajadores","PT","Montevideo",1496,0.17
+"413",2014,"Frente Amplio","FA","Paysandu",40494,49.93
+"414",2014,"Partido Nacional","PN","Paysandu",28679,35.36
+"415",2014,"Partido Colorado","PC","Paysandu",9142,11.27
+"416",2014,"Partido Independiente","PI","Paysandu",1531,1.89
+"417",2014,"Partido Asamblea Popular","PAP","Paysandu",669,0.82
+"418",2014,"Partido Ecologista Radical Intransigente","PERI","Paysandu",516,0.64
+"419",2014,"Partido de los Trabajadores","PT","Paysandu",68,0.08
+"420",2014,"Frente Amplio","FA","Rio Negro",17190,44.67
+"421",2014,"Partido Nacional","PN","Rio Negro",13670,35.53
+"422",2014,"Partido Colorado","PC","Rio Negro",6509,16.92
+"423",2014,"Partido Independiente","PI","Rio Negro",784,2.04
+"424",2014,"Partido Asamblea Popular","PAP","Rio Negro",277,0.72
+"425",2014,"Partido de los Trabajadores","PT","Rio Negro",48,0.12
+"426",2014,"Partido Ecologista Radical Intransigente","PERI","Rio Negro",0,0
+"427",2014,"Frente Amplio","FA","Rivera",27724,37.37
+"428",2014,"Partido Nacional","PN","Rivera",24268,32.71
+"429",2014,"Partido Colorado","PC","Rivera",20569,27.73
+"430",2014,"Partido Independiente","PI","Rivera",1031,1.39
+"431",2014,"Partido Asamblea Popular","PAP","Rivera",447,0.6
+"432",2014,"Partido de los Trabajadores","PT","Rivera",150,0.2
+"433",2014,"Partido Ecologista Radical Intransigente","PERI","Rivera",0,0
+"434",2014,"Frente Amplio","FA","Rocha",23093,44.35
+"435",2014,"Partido Nacional","PN","Rocha",18741,35.99
+"436",2014,"Partido Colorado","PC","Rocha",7899,15.17
+"437",2014,"Partido Independiente","PI","Rocha",1442,2.77
+"438",2014,"Partido Asamblea Popular","PAP","Rocha",808,1.55
+"439",2014,"Partido de los Trabajadores","PT","Rocha",87,0.17
+"440",2014,"Partido Ecologista Radical Intransigente","PERI","Rocha",0,0
+"441",2014,"Frente Amplio","FA","Salto",45113,51.46
+"442",2014,"Partido Colorado","PC","Salto",20518,23.41
+"443",2014,"Partido Nacional","PN","Salto",19467,22.21
+"444",2014,"Partido Independiente","PI","Salto",2089,2.38
+"445",2014,"Partido Asamblea Popular","PAP","Salto",397,0.45
+"446",2014,"Partido de los Trabajadores","PT","Salto",81,0.09
+"447",2014,"Partido Ecologista Radical Intransigente","PERI","Salto",0,0
+"448",2014,"Frente Amplio","FA","San Jose",33331,46.24
+"449",2014,"Partido Nacional","PN","San Jose",27057,37.53
+"450",2014,"Partido Colorado","PC","San Jose",8570,11.89
+"451",2014,"Partido Independiente","PI","San Jose",1973,2.74
+"452",2014,"Partido Asamblea Popular","PAP","San Jose",657,0.91
+"453",2014,"Partido Ecologista Radical Intransigente","PERI","San Jose",433,0.6
+"454",2014,"Partido de los Trabajadores","PT","San Jose",68,0.09
+"455",2014,"Frente Amplio","FA","Soriano",29795,47.44
+"456",2014,"Partido Nacional","PN","Soriano",21983,35
+"457",2014,"Partido Colorado","PC","Soriano",8963,14.27
+"458",2014,"Partido Independiente","PI","Soriano",1380,2.2
+"459",2014,"Partido Asamblea Popular","PAP","Soriano",567,0.9
+"460",2014,"Partido de los Trabajadores","PT","Soriano",122,0.19
+"461",2014,"Partido Ecologista Radical Intransigente","PERI","Soriano",0,0
+"462",2014,"Partido Nacional","PN","Tacuarembo",28666,41.99
+"463",2014,"Frente Amplio","FA","Tacuarembo",27772,40.68
+"464",2014,"Partido Colorado","PC","Tacuarembo",10087,14.78
+"465",2014,"Partido Independiente","PI","Tacuarembo",1202,1.76
+"466",2014,"Partido Asamblea Popular","PAP","Tacuarembo",481,0.7
+"467",2014,"Partido de los Trabajadores","PT","Tacuarembo",60,0.09
+"468",2014,"Partido Ecologista Radical Intransigente","PERI","Tacuarembo",0,0
+"469",2014,"Partido Nacional","PN","Treinta y Tres",17471,47.33
+"470",2014,"Frente Amplio","FA","Treinta y Tres",15157,41.06
+"471",2014,"Partido Colorado","PC","Treinta y Tres",3441,9.32
+"472",2014,"Partido Independiente","PI","Treinta y Tres",521,1.41
+"473",2014,"Partido Asamblea Popular","PAP","Treinta y Tres",288,0.78
+"474",2014,"Partido de los Trabajadores","PT","Treinta y Tres",32,0.09
+"475",2014,"Partido Ecologista Radical Intransigente","PERI","Treinta y Tres",0,0
+"476",2019,"Partido Nacional","PN","Artigas",24224,44.04
+"477",2019,"Frente Amplio","FA","Artigas",15046,27.36
+"478",2019,"Cabildo Abierto","CA","Artigas",10084,18.33
+"479",2019,"Partido Colorado","PC","Artigas",4813,8.75
+"480",2019,"Partido Ecologista Radical Intransigente","PERI","Artigas",185,0.34
+"481",2019,"Asamblea Popular","AP","Artigas",152,0.28
+"482",2019,"Partido Independiente","PI","Artigas",151,0.27
+"483",2019,"Partido de la Gente","PdeG","Artigas",139,0.25
+"484",2019,"Partido Verde Animalista","PVA","Artigas",137,0.25
+"485",2019,"Partido Digital","Pdigit.","Artigas",54,0.1
+"486",2019,"Partido de los Trabajadores","PT","Artigas",15,0.03
+"487",2019,"Frente Amplio","FA","Canelones",158221,44.83
+"488",2019,"Partido Nacional","PN","Canelones",101417,28.74
+"489",2019,"Cabildo Abierto","CA","Canelones",35202,9.97
+"490",2019,"Partido Colorado","PC","Canelones",35177,9.97
+"491",2019,"Partido Ecologista Radical Intransigente","PERI","Canelones",6409,1.82
+"492",2019,"Partido de la Gente","PdeG","Canelones",5347,1.52
+"493",2019,"Partido Independiente","PI","Canelones",3601,1.02
+"494",2019,"Asamblea Popular","AP","Canelones",3139,0.89
+"495",2019,"Partido Verde Animalista","PVA","Canelones",3106,0.88
+"496",2019,"Partido Digital","Pdigit.","Canelones",1093,0.31
+"497",2019,"Partido de los Trabajadores","PT","Canelones",219,0.06
+"498",2019,"Partido Nacional","PN","Cerro Largo",26215,40.19
+"499",2019,"Frente Amplio","FA","Cerro Largo",19895,30.5
+"500",2019,"Cabildo Abierto","CA","Cerro Largo",12232,18.75
+"501",2019,"Partido Colorado","PC","Cerro Largo",5257,8.06
+"502",2019,"Partido de la Gente","PdeG","Cerro Largo",401,0.61
+"503",2019,"Partido Verde Animalista","PVA","Cerro Largo",350,0.54
+"504",2019,"Partido Ecologista Radical Intransigente","PERI","Cerro Largo",317,0.49
+"505",2019,"Partido Independiente","PI","Cerro Largo",259,0.4
+"506",2019,"Asamblea Popular","AP","Cerro Largo",215,0.33
+"507",2019,"Partido Digital","Pdigit.","Cerro Largo",64,0.1
+"508",2019,"Partido de los Trabajadores","PT","Cerro Largo",18,0.03
+"509",2019,"Frente Amplio","FA","Colonia",34068,36.38
+"510",2019,"Partido Nacional","PN","Colonia",32691,34.91
+"511",2019,"Partido Colorado","PC","Colonia",15750,16.82
+"512",2019,"Cabildo Abierto","CA","Colonia",7099,7.58
+"513",2019,"Partido de la Gente","PdeG","Colonia",1104,1.18
+"514",2019,"Partido Ecologista Radical Intransigente","PERI","Colonia",958,1.02
+"515",2019,"Partido Independiente","PI","Colonia",879,0.94
+"516",2019,"Asamblea Popular","AP","Colonia",482,0.51
+"517",2019,"Partido Verde Animalista","PVA","Colonia",409,0.44
+"518",2019,"Partido Digital","Pdigit.","Colonia",160,0.17
+"519",2019,"Partido de los Trabajadores","PT","Colonia",47,0.05
+"520",2019,"Partido Nacional","PN","Durazno",16577,36.67
+"521",2019,"Frente Amplio","FA","Durazno",13087,28.95
+"522",2019,"Cabildo Abierto","CA","Durazno",8135,17.99
+"523",2019,"Partido Colorado","PC","Durazno",5852,12.94
+"524",2019,"Partido Independiente","PI","Durazno",325,0.72
+"525",2019,"Asamblea Popular","AP","Durazno",307,0.68
+"526",2019,"Partido Ecologista Radical Intransigente","PERI","Durazno",275,0.61
+"527",2019,"Partido de la Gente","PdeG","Durazno",258,0.57
+"528",2019,"Partido Digital","Pdigit.","Durazno",243,0.54
+"529",2019,"Partido Verde Animalista","PVA","Durazno",132,0.29
+"530",2019,"Partido de los Trabajadores","PT","Durazno",21,0.05
+"531",2019,"Partido Nacional","PN","Flores",7357,36.36
+"532",2019,"Frente Amplio","FA","Flores",5308,26.23
+"533",2019,"Partido Colorado","PC","Flores",4055,20.04
+"534",2019,"Cabildo Abierto","CA","Flores",2874,14.2
+"535",2019,"Partido de la Gente","PdeG","Flores",204,1.01
+"536",2019,"Partido Ecologista Radical Intransigente","PERI","Flores",134,0.66
+"537",2019,"Partido Independiente","PI","Flores",116,0.57
+"538",2019,"Asamblea Popular","AP","Flores",70,0.35
+"539",2019,"Partido Verde Animalista","PVA","Flores",71,0.35
+"540",2019,"Partido Digital","Pdigit.","Flores",39,0.19
+"541",2019,"Partido de los Trabajadores","PT","Flores",7,0.03
+"542",2019,"Partido Nacional","PN","Florida",18809,36.34
+"543",2019,"Frente Amplio","FA","Florida",17267,33.36
+"544",2019,"Partido Colorado","PC","Florida",7919,15.3
+"545",2019,"Cabildo Abierto","CA","Florida",5611,10.84
+"546",2019,"Partido Verde Animalista","PVA","Florida",546,1.05
+"547",2019,"Partido de la Gente","PdeG","Florida",454,0.88
+"548",2019,"Partido Independiente","PI","Florida",405,0.78
+"549",2019,"Partido Ecologista Radical Intransigente","PERI","Florida",359,0.69
+"550",2019,"Asamblea Popular","AP","Florida",266,0.51
+"551",2019,"Partido Digital","Pdigit.","Florida",89,0.17
+"552",2019,"Partido de los Trabajadores","PT","Florida",29,0.06
+"553",2019,"Partido Nacional","PN","Lavalleja",17608,37.98
+"554",2019,"Frente Amplio","FA","Lavalleja",11856,25.58
+"555",2019,"Partido Colorado","PC","Lavalleja",8198,17.68
+"556",2019,"Cabildo Abierto","CA","Lavalleja",7024,15.15
+"557",2019,"Partido Ecologista Radical Intransigente","PERI","Lavalleja",491,1.06
+"558",2019,"Partido Independiente","PI","Lavalleja",377,0.81
+"559",2019,"Partido de la Gente","PdeG","Lavalleja",325,0.7
+"560",2019,"Partido Verde Animalista","PVA","Lavalleja",216,0.47
+"561",2019,"Asamblea Popular","AP","Lavalleja",158,0.34
+"562",2019,"Partido Digital","Pdigit.","Lavalleja",83,0.18
+"563",2019,"Partido de los Trabajadores","PT","Lavalleja",21,0.05
+"564",2019,"Partido Nacional","PN","Maldonado",47339,38.19
+"565",2019,"Frente Amplio","FA","Maldonado",37496,30.25
+"566",2019,"Cabildo Abierto","CA","Maldonado",15751,12.71
+"567",2019,"Partido Colorado","PC","Maldonado",15281,12.33
+"568",2019,"Partido Ecologista Radical Intransigente","PERI","Maldonado",2782,2.24
+"569",2019,"Partido Independiente","PI","Maldonado",1437,1.16
+"570",2019,"Partido Verde Animalista","PVA","Maldonado",1437,1.16
+"571",2019,"Partido de la Gente","PdeG","Maldonado",1229,0.99
+"572",2019,"Asamblea Popular","AP","Maldonado",737,0.59
+"573",2019,"Partido Digital","Pdigit.","Maldonado",413,0.33
+"574",2019,"Partido de los Trabajadores","PT","Maldonado",61,0.05
+"575",2019,"Frente Amplio","FA","Montevideo",438839,49.12
+"576",2019,"Partido Nacional","PN","Montevideo",214675,24.03
+"577",2019,"Partido Colorado","PC","Montevideo",98559,11.03
+"578",2019,"Cabildo Abierto","CA","Montevideo",76410,8.55
+"579",2019,"Partido Ecologista Radical Intransigente","PERI","Montevideo",15978,1.79
+"580",2019,"Partido Independiente","PI","Montevideo",12415,1.39
+"581",2019,"Partido de la Gente","PdeG","Montevideo",11715,1.31
+"582",2019,"Asamblea Popular","AP","Montevideo",10888,1.22
+"583",2019,"Partido Verde Animalista","PVA","Montevideo",10081,1.13
+"584",2019,"Partido Digital","Pdigit.","Montevideo",3079,0.34
+"585",2019,"Partido de los Trabajadores","PT","Montevideo",720,0.08
+"586",2019,"Frente Amplio","FA","Paysandu",32698,39.09
+"587",2019,"Partido Nacional","PN","Paysandu",28971,34.64
+"588",2019,"Partido Colorado","PC","Paysandu",11378,13.6
+"589",2019,"Cabildo Abierto","CA","Paysandu",6919,8.27
+"590",2019,"Partido Ecologista Radical Intransigente","PERI","Paysandu",1154,1.38
+"591",2019,"Partido de la Gente","PdeG","Paysandu",701,0.84
+"592",2019,"Asamblea Popular","AP","Paysandu",677,0.81
+"593",2019,"Partido Independiente","PI","Paysandu",509,0.61
+"594",2019,"Partido Verde Animalista","PVA","Paysandu",442,0.53
+"595",2019,"Partido Digital","Pdigit.","Paysandu",158,0.19
+"596",2019,"Partido de los Trabajadores","PT","Paysandu",32,0.04
+"597",2019,"Frente Amplio","FA","Rio Negro",14263,35.21
+"598",2019,"Partido Nacional","PN","Rio Negro",13546,33.44
+"599",2019,"Partido Colorado","PC","Rio Negro",6816,16.83
+"600",2019,"Cabildo Abierto","CA","Rio Negro",4604,11.37
+"601",2019,"Partido Ecologista Radical Intransigente","PERI","Rio Negro",325,0.8
+"602",2019,"Partido Independiente","PI","Rio Negro",286,0.71
+"603",2019,"Partido de la Gente","PdeG","Rio Negro",224,0.55
+"604",2019,"Partido Verde Animalista","PVA","Rio Negro",187,0.46
+"605",2019,"Asamblea Popular","AP","Rio Negro",163,0.4
+"606",2019,"Partido Digital","Pdigit.","Rio Negro",89,0.22
+"607",2019,"Partido de los Trabajadores","PT","Rio Negro",0,0
+"608",2019,"Partido Colorado","PC","Rivera",21256,27.5
+"609",2019,"Partido Nacional","PN","Rivera",20419,26.42
+"610",2019,"Cabildo Abierto","CA","Rivera",18948,24.52
+"611",2019,"Frente Amplio","FA","Rivera",15274,19.76
+"612",2019,"Asamblea Popular","AP","Rivera",318,0.41
+"613",2019,"Partido Independiente","PI","Rivera",261,0.34
+"614",2019,"Partido Verde Animalista","PVA","Rivera",261,0.34
+"615",2019,"Partido de la Gente","PdeG","Rivera",231,0.3
+"616",2019,"Partido Ecologista Radical Intransigente","PERI","Rivera",181,0.23
+"617",2019,"Partido Digital","Pdigit.","Rivera",86,0.11
+"618",2019,"Partido de los Trabajadores","PT","Rivera",52,0.07
+"619",2019,"Frente Amplio","FA","Rocha",18903,34.25
+"620",2019,"Partido Nacional","PN","Rocha",17317,31.38
+"621",2019,"Cabildo Abierto","CA","Rocha",10553,19.12
+"622",2019,"Partido Colorado","PC","Rocha",5788,10.49
+"623",2019,"Partido Ecologista Radical Intransigente","PERI","Rocha",919,1.67
+"624",2019,"Asamblea Popular","AP","Rocha",502,0.91
+"625",2019,"Partido Verde Animalista","PVA","Rocha",430,0.78
+"626",2019,"Partido de la Gente","PdeG","Rocha",348,0.63
+"627",2019,"Partido Independiente","PI","Rocha",310,0.56
+"628",2019,"Partido Digital","Pdigit.","Rocha",85,0.15
+"629",2019,"Partido de los Trabajadores","PT","Rocha",38,0.07
+"630",2019,"Frente Amplio","FA","Salto",33720,36.74
+"631",2019,"Partido Colorado","PC","Salto",22001,23.97
+"632",2019,"Partido Nacional","PN","Salto",21681,23.63
+"633",2019,"Cabildo Abierto","CA","Salto",11474,12.5
+"634",2019,"Partido de la Gente","PdeG","Salto",1080,1.18
+"635",2019,"Partido Independiente","PI","Salto",561,0.61
+"636",2019,"Partido Ecologista Radical Intransigente","PERI","Salto",506,0.55
+"637",2019,"Asamblea Popular","AP","Salto",276,0.3
+"638",2019,"Partido Verde Animalista","PVA","Salto",271,0.3
+"639",2019,"Partido Digital","Pdigit.","Salto",171,0.19
+"640",2019,"Partido de los Trabajadores","PT","Salto",29,0.03
+"641",2019,"Frente Amplio","FA","San Jose",29257,38.83
+"642",2019,"Partido Nacional","PN","San Jose",26360,34.98
+"643",2019,"Partido Colorado","PC","San Jose",8140,10.8
+"644",2019,"Cabildo Abierto","CA","San Jose",8022,10.65
+"645",2019,"Partido Ecologista Radical Intransigente","PERI","San Jose",897,1.19
+"646",2019,"Partido de la Gente","PdeG","San Jose",792,1.05
+"647",2019,"Partido Independiente","PI","San Jose",748,0.99
+"648",2019,"Asamblea Popular","AP","San Jose",520,0.69
+"649",2019,"Partido Verde Animalista","PVA","San Jose",412,0.55
+"650",2019,"Partido Digital","Pdigit.","San Jose",161,0.21
+"651",2019,"Partido de los Trabajadores","PT","San Jose",42,0.06
+"652",2019,"Frente Amplio","FA","Soriano",23386,36.04
+"653",2019,"Partido Nacional","PN","Soriano",20951,32.29
+"654",2019,"Partido Colorado","PC","Soriano",10454,16.11
+"655",2019,"Cabildo Abierto","CA","Soriano",7620,11.74
+"656",2019,"Partido Ecologista Radical Intransigente","PERI","Soriano",877,1.35
+"657",2019,"Partido de la Gente","PdeG","Soriano",476,0.73
+"658",2019,"Asamblea Popular","AP","Soriano",381,0.59
+"659",2019,"Partido Independiente","PI","Soriano",310,0.48
+"660",2019,"Partido Verde Animalista","PVA","Soriano",287,0.44
+"661",2019,"Partido Digital","Pdigit.","Soriano",141,0.22
+"662",2019,"Partido de los Trabajadores","PT","Soriano",0,0
+"663",2019,"Partido Nacional","PN","Tacuarembo",25221,35.7
+"664",2019,"Frente Amplio","FA","Tacuarembo",20239,28.65
+"665",2019,"Cabildo Abierto","CA","Tacuarembo",12252,17.34
+"666",2019,"Partido Colorado","PC","Tacuarembo",10198,14.43
+"667",2019,"Partido de la Gente","PdeG","Tacuarembo",969,1.37
+"668",2019,"Partido Ecologista Radical Intransigente","PERI","Tacuarembo",516,0.73
+"669",2019,"Partido Independiente","PI","Tacuarembo",487,0.69
+"670",2019,"Partido Verde Animalista","PVA","Tacuarembo",364,0.52
+"671",2019,"Asamblea Popular","AP","Tacuarembo",313,0.44
+"672",2019,"Partido Digital","Pdigit.","Tacuarembo",80,0.11
+"673",2019,"Partido de los Trabajadores","PT","Tacuarembo",15,0.02
+"674",2019,"Partido Nacional","PN","Treinta y Tres",15074,39.66
+"675",2019,"Frente Amplio","FA","Treinta y Tres",10553,27.77
+"676",2019,"Cabildo Abierto","CA","Treinta y Tres",7922,20.85
+"677",2019,"Partido Colorado","PC","Treinta y Tres",3285,8.64
+"678",2019,"Partido de la Gente","PdeG","Treinta y Tres",316,0.83
+"679",2019,"Partido Verde Animalista","PVA","Treinta y Tres",253,0.67
+"680",2019,"Partido Ecologista Radical Intransigente","PERI","Treinta y Tres",198,0.52
+"681",2019,"Asamblea Popular","AP","Treinta y Tres",164,0.43
+"682",2019,"Partido Independiente","PI","Treinta y Tres",143,0.38
+"683",2019,"Partido Digital","Pdigit.","Treinta y Tres",75,0.2
+"684",2019,"Partido de los Trabajadores","PT","Treinta y Tres",21,0.06
