@@ -134,6 +134,9 @@ Participacion <- rio::import(here::here("Data", "Participación (2009-2020).xls
 
 Resumen <- doBy::summary_by(Participacion, Part ~ Año + Nivel, FUN = c(mean, sd))
 
+
+jpeg("Participacion 2020vs2019.jpeg", quality = 100, filename = )
+
 ggplot(Participacion[!Participacion$Año == 2020,], aes(x=Nivel, y=Part)) + 
         geom_boxplot() +
         geom_point(data=Participacion[Participacion$Año == 2020,], aes(x=Nivel, y=Part, color="red"))+
