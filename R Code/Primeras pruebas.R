@@ -7,7 +7,8 @@ DataNac <- rio::import(here::here("Data", "Nacional 2019 - Total GENERAL por cir
 EdadMed <- rio::import(here::here("Data", "Edad promedio circuitos 2019.xlsx"))
 
 
-# Algunos retoques a las bases para poder trabajar con ellas
+
+############### Algunos retoques a las bases para poder trabajar con ellas ######################
 
 #names(DataDep) 
 names(DataNac) <- names(DataDep) # Compatibilizar los nombres de las variables
@@ -54,12 +55,16 @@ Base <- dplyr::full_join(Base, EdadMed[, c(1, 6,7)], by= c("ID", "Departamento")
 Base$Diferencia <- Base$ParticipNac - Base$ParticipDep # Diferencia de participación entre elecciones
 Base <- na.omit(Base)
 
+#######################################################################################################
+
+
 
 # H: Circuitos más añosos, más pérdida de participación (espero signo positivo)
 # El covid afecta más a los ancianos, ergo su percepción del riesgo es mayor
 # y evitan concurrir a votar.
 
-# Función que resume modelos de regresión para cada departamento (Diferencia de participación entre elecciones vs Edad)
+# Función que resume modelos de regresión para cada departamento 
+# (Diferencia de participación entre elecciones vs Edad)
 FUN <- function(Data, vector){
         
         v <- unique(vector)
@@ -84,20 +89,10 @@ FUN <- function(Data, vector){
 ModDepto <- FUN(Base, unique(as.character(Base$Departamento)))
 ModDepto
 
-ModDepto <- FUN(Base[Base$Edad >= 60,], Base$Departamento)
-ModDepto
 
 
-# Modelos para los circuitos con un promedio de edad mayor a 60 años
+# Base con los casos
 CasosCOVID <- rio::import(here::here("Data", "Covid.csv")) # Agregué una columna con el cálculo del índice de Harvard
-
-Base60 <- Base[Base$Edad >= 60,]
-Base60 <- doBy::summary_by(data = Base60, formula = Diferencia ~ Departamento, FUN = mean, order = FALSE)
-Base60 <- dplyr::full_join(Base60, CasosCOVID, by= c("Departamento"))
-
-Mod60 <- lm(Diferencia ~ Hindex, data=Base60)
-summary(Mod60)
-
 
 
 # Con datos de circuito
@@ -106,12 +101,19 @@ ModCir <- lm(Diferencia ~ as.numeric(Hindex) , data = BaseCir)
 summary(ModCir)
 
 
+# Para mayores de 60
+ModCir60 <- lm(Diferencia ~ as.numeric(Hindex) , data = BaseCir[BaseCir$Edad >= 60, ])
+summary(ModCir60)
+
+
 
 # Gráfico de densidad
 Baseplot <- with(Base, cbind.data.frame(ParticipDep, ParticipNac))
 Baseplot <- reshape::melt(Baseplot)
 
-p <- ggplot(data=Baseplot, aes(x=value, fill=variable ))+
+#jpeg("Figures/Participacion 2020vs2019.jpeg", width = 1200, height = 1200, res = 150)
+
+p <- ggplot(data=Baseplot, aes(x=value, fill=variable))+
         geom_density(alpha=0.6) +
         scale_fill_manual(values=c("coral1", "cadetblue3"))+
         geom_vline(xintercept = mean(Baseplot$value[Baseplot$variable == "ParticipDep"]), colour="coral3")+
@@ -123,9 +125,8 @@ p <- ggplot(data=Baseplot, aes(x=value, fill=variable ))+
         ylab("Densidad") +
         theme_light()
 p
+#dev.off()
 
-names(DataNac)
-doBy::summary_by(data=DataNac, Total_Habilitados ~ Departamento, FUN = sum)
 
 
 # Participacion histórica
@@ -135,7 +136,7 @@ Participacion <- rio::import(here::here("Data", "Participación (2009-2020).xls
 Resumen <- doBy::summary_by(Participacion, Part ~ Año + Nivel, FUN = c(mean, sd))
 
 
-jpeg("Participacion 2020vs2019.jpeg", quality = 100, filename = )
+#jpeg("Figures/Boxplot.jpeg", width = 1200, height = 1200, res = 150)
 
 ggplot(Participacion[!Participacion$Año == 2020,], aes(x=Nivel, y=Part)) + 
         geom_boxplot() +
@@ -147,3 +148,4 @@ ggplot(Participacion[!Participacion$Año == 2020,], aes(x=Nivel, y=Part)) +
         theme_light() +
         theme(legend.position = "none")
 
+#dev.off()
