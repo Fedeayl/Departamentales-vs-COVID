@@ -1,21 +1,8 @@
 ###### Test ANOVA ######
 
 
-Resultados <- read.csv2(here::here("Data","ResultadosDepartamentales.csv"))
 
-Resultados$Dif_Turnout <- Resultados$Turnout_Nac - Resultados$Turnout_Dep # Variable diferencia de votos en el ciclo
-
-Resultados$COVID <- 0
-Resultados[Resultados$Año==2020,]$COVID <- 1 # Variable Covid
-
-Resultados$Comp_fact <- ifelse(Resultados$Competitividad <= mean(Resultados$Competitividad), yes= 0, no=1)
-
-Mod <- aov(lm(Dif_Turnout ~ COVID + Alternancia_Nac + Incumbente + Comp_fact, data=Resultados))
-summary(Mod)
-
-
-
-### Datos de circuito 
+### Importo datos de circuito 
 
 DataDep <- rio::import(here::here("Data","Subnacionales 2020 - Total GENERAL por circuito.xlsx"))
 DataNac <- rio::import(here::here("Data", "Nacional 2019 - Total GENERAL por circuito.xlsx"))
@@ -72,7 +59,11 @@ Base <- na.omit(Base)
 ##########################################################################
 
 
+# Voy a eliminar valores extremos, el 1% superior y el 1 % inferior.
+# Hay observaciones muy raras, que pueden deberse a circuitos muy pequeños, o errores en asignación de datos
 
+Base <- Base[Base$Diferencia < quantile(Base$Diferencia, .99), ]
+Base <- Base[Base$Diferencia > quantile(Base$Diferencia, .01), ]
 
 ############################# ANOVA #####################################
 
@@ -83,44 +74,36 @@ Base$Edad_fact[Base$Edad < 60 & Base$Edad > 40] <- 1
 Base$Edad_fact[Base$Edad <= 40] <- 0
 Base$Edad_fact <- as.factor(Base$Edad_fact)
 
-# Base$Edad_fact <- factor(Base$Edad_fact, levels = c(2, 1, 0), labels  = c("60 y más", "Entre 40 y 60", "40 y menos"))
+
+nrow(Base[Base$Edad < 60 & Base$Edad > 40, ])
+nrow(Base[Base$Edad >= 60, ])
+nrow(Base[Base$Edad <= 40, ])
+
+Base$Edad_fact <- factor(Base$Edad_fact, levels = c(2, 1, 0), labels  = c("60 y más", "Entre 40 y 60", "40 y menos"))
 
 library(ggplot2)
 
+# Gráfico de violín para comparar las distribuciones 
 DistPlot <- ggplot(data = Base, aes(x= Edad_fact, y=Diferencia, fill=Edad_fact)) + 
                 geom_violin() +
                 theme_minimal() +
                 ggtitle ("Distribución de la diferencia de votación por circuito por categoría de edad promedio")
 
 
-
-
-# Prueba de normalidad 
-shapiro.test(Base$Diferencia[Base$Edad_fact == "0"])
-shapiro.test(Base$Diferencia[Base$Edad_fact == "1"])
-shapiro.test(Base$Diferencia[Base$Edad_fact == "2"])
+DistPlot
 
 # Homocedasticidad test
 # Test de Levene  y barlett para comparar las varianzas de los grupos
 car::leveneTest(y = Base$Diferencia , group = Base$Edad_fact, center = "median")
 bartlett.test(Diferencia ~ Edad_fact, data = Base)
 
-# Los datos tienen problemas de normalidad y de heterocedasticidad (se rechazan las H0)
+# Los datos tienen problemas de homogeneidad entre grupos y de heterocedasticidad (se rechazan las H0)
 
-
-
-
-
-# Los datos son una cagada en tanto los supuestos de la técnica. Sin embargo es un N bastante grande
-# Ignoremos el problema por un momento
+# Procediendo de todas formas con un ANOVA estandar
 
 Mod2 <- aov(Diferencia ~ Edad_fact, data=Base)
 summary(Mod2) # Hay diferencias significativas entre grupos
-
-
-# Permite ver entre que grupos lo son
-pairwise.t.test(Base$Diferencia,  Base$Edad_fact,  p.adj = "bonferroni")
-
+pairwise.t.test(Base$Diferencia,  Base$Edad_fact,  p.adj = "bonferroni") # Permite ver entre que grupos lo son
 
 
 # El test de Kruskal-Wallis es una alternativa no paramétrica al test ANOVA
@@ -128,11 +111,7 @@ pairwise.t.test(Base$Diferencia,  Base$Edad_fact,  p.adj = "bonferroni")
 # Ojo, también es necesario que la varianza sea igual entre grupos
 
 kruskal.test(Diferencia ~ Edad_fact, data = Base)
-
 pairwise.wilcox.test(Base$Diferencia, Base$Edad_fact, p.adjust.method = "bonferroni")
-
-
-
 
 
 # Tal vez una alternativa puede ser transformar los datos
@@ -143,9 +122,9 @@ Dif_J <- Johnson::RE.Johnson(Base$Diferencia)
 Base$Dif_J <- Dif_J$transformed
 rm(Dif_J)
 
-
 hist(Base$Dif_J)
 normtest::jb.norm.test(Base$Dif_J) # No bueno pero mejor
+car::leveneTest(y = Base$Dif_J , group = Base$Edad_fact, center = "median") #Sigue sin servir
 
 
 # Repito lo mismo con la variable transformada
@@ -153,12 +132,43 @@ normtest::jb.norm.test(Base$Dif_J) # No bueno pero mejor
 Mod2 <- aov(Dif_J ~ Edad_fact, data=Base)
 summary(Mod2)
 
-
-pairwise.t.test( Base$Dif_J, 
-                 Base$Edad_fact, 
-                 p.adj = "bonferroni")
-
-
-
 kruskal.test(Dif_J ~ Edad_fact, data = Base)
-pairwise.wilcox.test(Base$Dif_J, Base$Edad_fact)
+pairwise.wilcox.test(Base$Dif_J, Base$Edad_fact, p.adjust.method = "bonferroni")
+
+
+
+#### Buscando que los estimadores sean robustos a la heterocedasticidad 
+## http://ritsokiguess.site/docs/2017/05/19/welch-analysis-of-variance/
+## https://www.researchgate.net/profile/Antonio-Monleon-Getino/publication/304283596_Diseno_de_experimentos_su_analisis_y_diagnostico/links/576b8cea08aefcf135bd5977/Diseno-de-experimentos-su-analisis-y-diagnostico.pdf
+
+
+Mod <- lm (Diferencia ~ Edad_fact, data = Base)
+car::Anova (Mod, white.adjust =TRUE) # white adjust: obtener un p-valor considerando la heterodasticidad
+
+
+# devtools::install_github("matherion/userfriendlyscience")
+
+# Welch ANOVA, no asume igualdad de varianzas entre gurpos
+# Si sería necesario preocuparse por la normalidad de los datos
+
+oneway.test(Diferencia~Edad_fact,data=Base) 
+oneway.test(Dif_J~Edad_fact,data=Base) 
+
+
+# Games-Howell - método pos-hoc no paramétrico que no asume la igualdad de varianza
+userfriendlyscience::oneway(y=Base$Diferencia, x=Base$Edad_fact, posthoc="games-howell")
+
+
+### Resumen: los resultados son similares independiente del método utilizado. Quedandonos con este último,
+### que estimo más conveniente dado la robustez a la heterocedasticidad y la no asunción de homogeneidad
+### de varianzas, se tiene que:
+        
+        # El Welch ANOVA muestra diferencias estadísticamente significativas entre grupos
+        # El test pos-hoc de Games_Howell entre la participación del grupo 2 y el 1, y el 2 y el 0
+        # No así entre el grupo 1 y el 0. (Algo de esto se intuye de los gráficos de violín)
+
+
+
+
+
+                            
