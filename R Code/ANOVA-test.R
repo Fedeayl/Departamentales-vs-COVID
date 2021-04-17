@@ -43,11 +43,12 @@ x <- setdiff(unique(DataNac$ID), unique(DataDep$ID))
 DataDep <- DataDep[!DataDep$ID %in% x, ]
 DataNac <- DataNac[!DataNac$ID %in% x, ]
 
+##########################################################################
+
 # Variables de participación
 
 DataDep$ParticipDep <- with(DataDep, (Total_Votos_Emitidos-Total_Votos_Observados)/Total_Habilitados)
 DataNac$ParticipNac <- with(DataNac, (Total_Votos_Emitidos-Total_Votos_Observados)/Total_Habilitados)
-
 
 # Armo una base nueva con los datos que me interesan
 
@@ -56,7 +57,6 @@ Base <- dplyr::full_join(Base, EdadMed[, c(1, 6,7)], by= c("ID", "Departamento")
 Base$Diferencia <- Base$ParticipNac - Base$ParticipDep # Diferencia de participación entre elecciones
 Base <- na.omit(Base)
 
-##########################################################################
 
 
 # Voy a eliminar valores extremos, el 1% superior y el 1 % inferior.
@@ -81,16 +81,25 @@ nrow(Base[Base$Edad <= 40, ])
 
 Base$Edad_fact <- factor(Base$Edad_fact, levels = c(2, 1, 0), labels  = c("60 y más", "Entre 40 y 60", "40 y menos"))
 
-library(ggplot2)
+min(DataDep$Total_Habilitados)
 
 # Gráfico de violín para comparar las distribuciones 
+library(ggplot2)
+jpeg("Figures/Dist_ParticipaciónvsEdad.jpeg", width = 1200, height = 800, res = 150)
 DistPlot <- ggplot(data = Base, aes(x= Edad_fact, y=Diferencia, fill=Edad_fact)) + 
                 geom_violin() +
+                scale_fill_manual(values=c("gray25", "gray50", "gray70"))+
+                labs(x = "Edad promedio", y = "Diferencia de participación",
+                     title = "Distribución de la diferencia de participación (nacional-departamental)", 
+                     subtitle = "Según edad promedio del circuito",
+                     caption = "Elaboración propia en base a datos de la Corte Electoral")+
                 theme_minimal() +
-                ggtitle ("Distribución de la diferencia de votación por circuito por categoría de edad promedio")
-
-
+                theme(text=element_text(family="Times"))+
+                theme(legend.position="none")
+               
 DistPlot
+dev.off()
+
 
 # Homocedasticidad test
 # Test de Levene  y barlett para comparar las varianzas de los grupos
@@ -145,13 +154,14 @@ pairwise.wilcox.test(Base$Dif_J, Base$Edad_fact, p.adjust.method = "bonferroni")
 Mod <- lm (Diferencia ~ Edad_fact, data = Base)
 car::Anova (Mod, white.adjust =TRUE) # white adjust: obtener un p-valor considerando la heterodasticidad
 
-
+summary(Mod)
+nrow(Base)
 # devtools::install_github("matherion/userfriendlyscience")
 
 # Welch ANOVA, no asume igualdad de varianzas entre gurpos
 # Si sería necesario preocuparse por la normalidad de los datos
 
-oneway.test(Diferencia~Edad_fact,data=Base) 
+oneway.test(Diferencia~Edad_fact,data=Base)
 oneway.test(Dif_J~Edad_fact,data=Base) 
 
 
@@ -168,7 +178,3 @@ userfriendlyscience::oneway(y=Base$Diferencia, x=Base$Edad_fact, posthoc="games-
         # No así entre el grupo 1 y el 0. (Algo de esto se intuye de los gráficos de violín)
 
 
-
-
-
-                            

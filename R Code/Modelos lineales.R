@@ -10,13 +10,12 @@ Resultados[Resultados$Año==2020,]$COVID <- 1 # Variable Covid
 
 # Modelos
 
-ModP1 <- lm(data=Resultados, Dif_Turnout^(1/2) ~ COVID)
-ModP2 <- lm(data=Resultados, Dif_Turnout^(1/2) ~ COVID + Ruralidad + IDH + Secundaria + Ingreso + Funcionarios)
-ModP3 <- lm(data=Resultados, Dif_Turnout^(1/2) ~ COVID + Incumbente + Competitividad + Alternancia_Nac + N_Candidatos)
-ModP4 <- lm(data=Resultados, Dif_Turnout^(1/2) ~ COVID + Incumbente + Funcionarios + Competitividad +
-                                                         Ruralidad + IDH + Secundaria + Ingreso)
+ModP1 <- lm(data=Resultados, Dif_Turnout ~ COVID)
+ModP2 <- lm(data=Resultados, Dif_Turnout ~ COVID + Ruralidad + Secundaria + Ingreso)
+ModP3 <- lm(data=Resultados, Dif_Turnout ~ COVID + Incumbente + Competitividad + N_Candidatos + Alternancia_Nac)
+ModP4 <- lm(data=Resultados, Dif_Turnout ~ COVID + Incumbente + Competitividad + N_Candidatos + Secundaria + Ruralidad + Ingreso)
 
-
+summary(lm(data=Resultados, Dif_Turnout~Incumbente + Competitividad + Comp_Candidato + Alternancia_Nac + N_Candidatos))
 ### Normalidad de los residuos 
 
 tseries::jarque.bera.test(ModP1$residuals)
@@ -54,5 +53,5 @@ car::vif(ModP4)
 
 ### Salida de los modelos
 jtools::export_summs(ModP1, ModP2, ModP3, ModP4)
-
+summary(ModP4)
 
