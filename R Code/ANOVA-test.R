@@ -164,7 +164,10 @@ nrow(Base)
 oneway.test(Diferencia~Edad_fact,data=Base)
 oneway.test(Dif_J~Edad_fact,data=Base) 
 
+ recode(Base)
 
+Base$Edad_fact <-factor(Base$Edad_fact, levels = levels(Base$Edad_fact)[ c( 3,2,1 )])
+levels(Base$Edad_fact)
 # Games-Howell - método pos-hoc no paramétrico que no asume la igualdad de varianza
 userfriendlyscience::oneway(y=Base$Diferencia, x=Base$Edad_fact, posthoc="games-howell")
 

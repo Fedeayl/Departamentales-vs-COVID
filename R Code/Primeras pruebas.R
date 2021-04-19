@@ -133,19 +133,43 @@ p
 
 Participacion <- rio::import(here::here("Data", "Participación (2009-2020).xlsx"))
 
-Resumen <- doBy::summary_by(Participacion, Part ~ Año + Nivel, FUN = c(mean, sd))
 
 
-#jpeg("Figures/Boxplot.jpeg", width = 1200, height = 1200, res = 150)
+jpeg("Figures/Boxplot.jpeg", width = 1200, height = 1200, res = 150)
 
 ggplot(Participacion[!Participacion$Año == 2020,], aes(x=Nivel, y=Part)) + 
         geom_boxplot() +
-        geom_point(data=Participacion[Participacion$Año == 2020,], aes(x=Nivel, y=Part, color="red"))+
+        geom_point(data=Participacion[Participacion$Año == 2020,], aes(x=Nivel, y=Part), color="gray60")+
         labs(title = "Distribución de participación elecciones nacionales y departamentales (2000-2020)",
-             subtitle = "En rojo los datos de la elección 2020")+
+             subtitle = "En gris los valores correspondientes a la elección 2020")+
         xlab("Nivel") +
         ylab("Participación") +
         theme_light() +
         theme(legend.position = "none")
 
-#dev.off()
+dev.off()
+
+# Gráfico participación Nacional vs Subnacional
+
+Resumen <- doBy::summary_by(Participacion, Part ~ Año + Nivel, FUN = c(mean, sd))
+Resumen$Nivel[Resumen$Nivel == "Nac"] <-  "Nacional"
+Resumen$Nivel[Resumen$Nivel == "Dep"] <-  "Departamental"
+
+jpeg("Figures/Barplot_Participacion.jpeg", width = 1200, height = 800, res = 150)
+ggplot(data = Resumen, aes(x = Año, y = Part.mean, fill=Nivel)) +
+       geom_bar(stat="identity", position="stack") + 
+       ylim(0,1) + scale_fill_manual(values=c("gray80", "gray50"))+
+       geom_text(aes(label= paste0(100*round(Part.mean,2), "%")), vjust = -1,
+            color = "gray9", size = 2.5, family="Cambria") + 
+       labs(x = "", y = "% Participación",
+            title = "Participación promedio por departamento", 
+            subtitle = "Elecciones nacionales y subnacionales",
+            caption = "Elaboración en base a datos de la Corte Electoral") +
+       theme_minimal()+
+       theme(plot.margin = margin(30,30,30,30), 
+              axis.text.x = element_text(angle = -30, vjust = 1, hjust = 0),
+              text=element_text(size=12, family="Cambria"))
+       
+dev.off()
+
+
